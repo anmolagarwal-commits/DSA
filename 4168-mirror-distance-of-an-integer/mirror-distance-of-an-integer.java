@@ -7,7 +7,6 @@ class Solution {
             rev=rev*10+dig;
             m=m/10;
         }
-        n=Math.abs(n-rev);
-        return n;
+        return Math.abs(n-rev);
     }
 }

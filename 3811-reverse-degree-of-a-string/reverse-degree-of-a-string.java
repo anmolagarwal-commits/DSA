@@ -3,7 +3,7 @@ class Solution {
         int n=s.length();
         int sum=0;
         for(int i=0;i<n;i++){
-            sum=sum+(('z'-s.charAt(i)+1)*(i+1));
+            sum=sum+(26-(s.charAt(i)-'a'))*(i+1);
         }
         return sum;
     }
